@@ -1,4 +1,4 @@
-FROM pzlc/fedora:v9
+FROM pzlc/fedora:v11
 RUN dnf upgrade --refresh --assumeyes
 RUN dnf install --assumeyes avr-gcc-c++
 RUN dnf install --assumeyes make
